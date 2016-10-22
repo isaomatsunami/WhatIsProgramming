@@ -1,5 +1,8 @@
 # coding: utf-8
 
+import platform
+print ( "Python version " + platform.python_version_tuple()[0] )
+
 # 重力波データ処理の抄訳
 
 # numpy/scipyは科学計算用ライブラリ
